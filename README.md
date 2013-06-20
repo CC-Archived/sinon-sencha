@@ -4,11 +4,11 @@
 
 Without this adaptor, Sinon will treat Sencha Touch and Ext JS class instances as deeply nested Objects and attempt to recursively traverse and format all of their instance properties.  This produces unnecessarily verbose assertion messages that will cause tests to run very slowly.
 
-# Installation and Usage
+## Installation and Usage
 
 ### &lt;script&gt; tag:
 
-First, include `ext.js` (or `ext-all.js`, etc.) and `sinon.js` in the your HTML test runner file:
+First, include `ext.js` (or `ext-all.js`, etc.) and `sinon.js` in your HTML test runner:
 
 
 	<script src="ext.js"></script>
@@ -18,15 +18,19 @@ Then reference `sinon-sencha.js`:
 	
 	<script src="sinon-sencha.js"></script>
 
-or, if you prefer the minified version of the script file:
+or, if you prefer the minified version:
 
 	<script src="sinon-sencha.min.js"></script>
 
 ### Karma Test Runner
 
-Reference the `sinon-sencha.js` or `sinon-sencha.min.js` script file in the `files` section of your `karma.conf.js` file.
+Reference `sinon-sencha.js` or `sinon-sencha.min.js` in the `files` section of your `karma.conf.js` file.
 
 **NOTE:** Be sure to reference `sinon-sencha.js` *after* including both `ext.js` (or `ext-all.js`, etc.) and `sinon.js`.
+
+## Contributors
+
+* [John Yanarella](http://twitter.com/johnyanarella) (Creator)
 
 ## License
 
