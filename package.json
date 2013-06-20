@@ -1,15 +1,22 @@
 {
-	"name": "sinon-sencha",
-	"version": "1.0.0",
-	"description": "Sencha Touch and Ext JS adaptor for Sinon.JS",
-	"keywords": ["sinon", "Sencha", "Sencha Touch", "Ext JS"],
-	"author": "John Yanarella <jmy@codecatalyst.com> (http://codecatalyst.com)",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/CodeCatalyst/sinon-sencha"
-	},
-	"bugs": {
-		"url": "http://github.com/CodeCatalyst/sinon-sencha/issues"
-	}
+  "name": "sinon-sencha",
+  "version": "1.0.0",
+  "description": "Sencha Touch and Ext JS adaptor for Sinon.JS",
+  "keywords": [
+    "sinon",
+    "Sencha",
+    "Sencha Touch",
+    "Ext JS"
+  ],
+  "author": "John Yanarella <jmy@codecatalyst.com> (http://codecatalyst.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCatalyst/sinon-sencha"
+  },
+  "bugs": {
+    "url": "http://github.com/CodeCatalyst/sinon-sencha/issues"
+  },
+  "readmeFilename": "README.md",
+  "main": "sinon-sencha.js"
 }
